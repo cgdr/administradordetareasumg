@@ -1,0 +1,21 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "Api rest administrador de tareas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "msnodesqlv8": "^2.2.0", 
+    "mysql": "^2.18.1",
+    "rest-mssql-nodejs": "^1.0.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
