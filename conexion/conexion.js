@@ -14,11 +14,11 @@ const mysql = require("mysql")
 
 const conexion = mysql.createConnection(
     {
-        host: 'localhost',
-        user: 'root',
-        password: '',
+        host: '172.107.32.122',
+        user: 'admin',
+        password: 'iMxMi63M',
         database: 'administrador_de_tareas_umg',
-        port: 3306
+        port: 10240
     }
 )
 
